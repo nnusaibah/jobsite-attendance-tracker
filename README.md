@@ -1,59 +1,61 @@
-# JobsiteTracker
+# Jobsite Attendance Tracker
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+A smart, Firebase-powered web app for streamlined jobsite check-ins — inspired by Vendoor's mission to make construction sites safer and more efficient.
 
-## Development server
+🔗 **Live Demo**: [https://jobsitetracker-e986a.web.app](https://jobsitetracker-e986a.web.app)  
+💻 **GitHub Repo**: [https://github.com/nnusaibah/jobsite-attendance-tracker](https://github.com/nnusaibah/jobsite-attendance-tracker)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## 🚀 Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+- ✅ **User Authentication** with Firebase
+- 📍 **Geo-fenced Check-In System** – users must be near the jobsite
+- 🔄 **Offline Mode** – check-ins are stored locally and sync when back online
+- 🔐 **QR Code-Based Access** for quick, secure check-ins
+- ⚠️ **Anomaly Detection** – flags unusual location activity
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠️ Tech Stack
 
-```bash
-ng generate component component-name
-```
+- **Frontend**: Angular, TypeScript, HTML/CSS
+- **Backend**: Firebase Firestore & Firebase Authentication
+- **Extras**: Capacitor Geolocation, Angularx QR Code
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+---
 
-```bash
-ng generate --help
-```
+## 📸 Screenshots (Optional)
 
-## Building
+_Add UI screenshots here if you'd like — I can help generate some!_
 
-To build the project run:
+---
 
-```bash
-ng build
-```
+## ✨ Inspiration
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+This project was built as part of my application to **Vendoor Technology Inc.**, drawing directly from their stack (TypeScript, Angular, Firebase) and their core mission: improving construction site productivity and safety.
 
-## Running unit tests
+---
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📂 How to Run Locally
 
-```bash
-ng test
-```
+1. Clone the repo  
+   `git clone https://github.com/nnusaibah/jobsite-attendance-tracker.git`
+2. Navigate to the folder  
+   `cd jobsite-attendance-tracker`
+3. Install dependencies  
+   `npm install`
+4. Run the app  
+   `ng serve --open`
 
-## Running end-to-end tests
+---
 
-For end-to-end (e2e) testing, run:
+## 🙋‍♀️ About Me
 
-```bash
-ng e2e
-```
+Hi! I'm **Nusaibah**, a Computer Science undergraduate passionate about solving real-world problems through clean code and smart design. I love working on impactful projects that go beyond the classroom.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+[LinkedIn Profile (optional)]  
+[Portfolio (optional)]
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
