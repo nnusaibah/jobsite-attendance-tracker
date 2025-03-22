@@ -2,7 +2,8 @@
 
 A smart, Firebase-powered web app for streamlined jobsite check-ins — inspired by Vendoor's mission to make construction sites safer and more efficient.
 
-🔗 **Live Demo**: [https://jobsitetracker-e986a.web.app](https://jobsitetracker-e986a.web.app)  
+## 🔗 Live Demo [https://your-new-link.web.app](https://jobsite-final-deploy.web.app)
+ 
 💻 **GitHub Repo**: [https://github.com/nnusaibah/jobsite-attendance-tracker](https://github.com/nnusaibah/jobsite-attendance-tracker)
 
 ---
