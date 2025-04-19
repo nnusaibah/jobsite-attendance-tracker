@@ -1,6 +1,6 @@
 # Jobsite Attendance Tracker
 
-A smart, Firebase-powered web app for streamlined jobsite check-ins â€” inspired by Vendoor's mission to make construction sites safer and more efficient.
+A smart, Firebase-powered web app for streamlined jobsite check-ins.
 
 ## Live Demo: https://jobsitetracker-e986a.web.app
  
@@ -83,5 +83,4 @@ This project began as a way to explore geolocation APIs, Firebase, and Angularâ€
 
 Hi! I'm **Nusaibah**, a Computer Science undergraduate passionate about solving real-world problems through clean code and smart design. I love working on impactful projects that go beyond the classroom.
 
----
 
