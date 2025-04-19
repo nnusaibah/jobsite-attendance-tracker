@@ -2,7 +2,7 @@
 
 A smart, Firebase-powered web app for streamlined jobsite check-ins — inspired by Vendoor's mission to make construction sites safer and more efficient.
 
-## Live Demo [https://your-new-link.web.app](https://jobsite-final-deploy.web.app)
+## Live Demo: https://jobsitetracker-e986a.web.app
  
 **GitHub Repo**: [https://github.com/nnusaibah/jobsite-attendance-tracker](https://github.com/nnusaibah/jobsite-attendance-tracker)
 
@@ -28,13 +28,8 @@ A smart, Firebase-powered web app for streamlined jobsite check-ins — inspired
 
 ## Screenshots 
 
-_Add UI screenshots here if you'd like — I can help generate some!_
+![image](https://github.com/user-attachments/assets/83c07c9a-81c5-48e7-b6f9-a868dcf0df70)
 
----
-
-## Inspiration
-
-This project was built as part of my application to **Vendoor Technology Inc.**, drawing directly from their stack (TypeScript, Angular, Firebase) and their core mission: improving construction site productivity and safety.
 
 ---
 
@@ -48,6 +43,48 @@ This project was built as part of my application to **Vendoor Technology Inc.**,
    `npm install`
 4. Run the app  
    `ng serve --open`
+
+---
+
+## How It Works
+
+1. Click **Sign In with Google**.
+2. Use **Check In** to log your current location.
+
+---
+
+## Firestore Rules
+
+```ts
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /check-ins/{docId} {
+      allow read: if true;
+      allow write: if request.auth != null;
+    }
+  }
+}
+
+---
+
+## Work in Progress
+
+This project is still actively being developed. Current improvements underway:
+
+- Displaying **user name and email** alongside check-ins
+- Adding **check-out functionality** with duration tracking
+- Improving **mobile responsiveness**
+- Export to CSV or download history
+- More robust **error handling** (e.g. failed geolocation)
+
+Stay tuned! 
+
+---
+
+## Inspiration
+
+This project began as a way to explore geolocation APIs, Firebase, and Angular’s modern component structure — with the goal of building something real and useful.
 
 ---
 
